@@ -9,4 +9,4 @@ spec:
     syncRepo: https://github.com/murog/empty-test-repo
     syncBranch: master
     secretType: none
-    policyDir: "empty-test-repo/config-root"
+    policyDir: "config-root"
