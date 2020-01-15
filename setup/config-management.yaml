@@ -8,5 +8,5 @@ spec:
   git:
     syncRepo: git@github.com:murog/empty-test-repo.git
     syncBranch: master
-    secretType: ssh
+    secretType: none
     policyDir: "empty-test-repo/config-root"
