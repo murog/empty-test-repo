@@ -1,0 +1,12 @@
+apiVersion: configmanagement.gke.io/v1
+kind: ConfigManagement
+metadata:
+  name: config-management
+  namespace: config-management-system
+spec:
+  clusterName: test
+  git:
+    syncRepo: git@github.com:murog/empty-test-repo.git
+    syncBranch: master
+    secretType: ssh
+    policyDir: "empty-test-repo/config-root"
