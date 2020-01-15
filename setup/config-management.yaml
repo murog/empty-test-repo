@@ -6,7 +6,7 @@ metadata:
 spec:
   clusterName: test
   git:
-    syncRepo: git@github.com:murog/empty-test-repo.git
+    syncRepo: https://github.com/murog/empty-test-repo
     syncBranch: master
     secretType: none
     policyDir: "empty-test-repo/config-root"
